@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8.4)
+project(opencv)
+find_package( OpenCV REQUIRED )
+find_package( CURL REQUIRED )
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}")
+set(SOURCE_FILES main.cpp)
+add_executable(opencv ${SOURCE_FILES})
+target_link_libraries( opencv curl ${OpenCV_LIBS} )
