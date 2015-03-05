@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ *    v2.0b1 | 201101
+ *       NOTE: WORK IN PROGRESS
+ *          USE WITH CAUTION AND TEST WITH ABANDON */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* START */
+
+body {
+    font: 16px/1.4em 'PT Sans', sans-serif;;
+    color: #fff;
+    background: #333;
+}
+
+p,
+ul {
+    margin: 0 0 1.5em;
+}
+
+ul {
+    list-style: disc;
+    padding: 0 0 0 20px;
+}
+
+a {
+    color: #ccffcc;
+}
+
+h1 {
+
+}
+
+h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 32px;
+    line-height: 1.4em;
+    margin: 0 0 .4em;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'PT Serif', serif;
+    font-size: 22px;
+    line-height: 1.4em;
+    margin: 0 0 .4em;
+    font-weight: bold;
+}
+
+/*header*/
+
+header {
+    background: #1c1c1c;
+    padding: 15px 20px;
+}
+
+        /*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
+        header:before,
+        header:after {
+            content:"";
+            display:table;
+        }
+
+        header:after {
+            clear:both;
+        }
+
+        /* For IE 6/7 (trigger hasLayout) */
+        header {
+            zoom:1;
+        }
+
+h1.logo {
+    color: #d8d8d8;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 22px;
+    float: left;
+    letter-spacing: 0.2em;
+}
+
+img.fill {
+    width:100%;
+}
+
+div.help {
+    background-color: #444;
+    margin: 10px 5px;
+    padding: 5px;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
+
+div.info {
+    padding: 30px 0;
+    text-align: center;
+}
+
+div.info img {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+ul {
+    margin-bottom: 0 !important;
+}
